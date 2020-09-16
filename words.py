@@ -16,6 +16,6 @@ def data():
         list1 = ["".join(perm) for perm in itertools.permutations(userInput)]
         return ' '.join(list1)
     else:
-        return "This is not a word, please try again!!!"
+        return "This is not a word, please try again!"
 
 app.run(host='0.0.0.0')
