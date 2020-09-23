@@ -8,7 +8,7 @@ user = ""
 
 @app.route('/')
 def home():
-    return "<h1> Welcome to Anagrams World</h1><p>Enter your single word: </p>"
+    return "<h1> Welcome to Anagrams World</h1><p>Enter your single word or Don't enter one </p>"
 
 @app.route('/data')
 def data():
