@@ -18,4 +18,4 @@ def data():
     else:
         return "This is not a word, please try again!"
 
-app.run(host='0.0.0.0')
+app.run(host='0.0.0.0', port=int("80"))
