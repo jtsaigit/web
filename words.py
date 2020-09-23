@@ -6,6 +6,10 @@ app.config["DEBUG"] = True
 
 user = ""
 
+@app.route('/')
+def home():
+    return "<h1> Welcome to Anagrams World</h1><p>Enter your </p>
+
 @app.route('/data')
 def data():
     # Get the value of userInput (i.e. ?userInput=some-value)
