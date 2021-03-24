@@ -7,7 +7,7 @@ app.config["DEBUG"] = True
 
 @app.route('/')
 def home():
-    return "<h1> Welcome to the first main page</h1><p>Have a good day</p>"
+#    return "<h1> Welcome to the first main page</h1><p>Have a good day</p>"
     return current_app.send_static_file('index.html')
 
 
